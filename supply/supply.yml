@@ -1,0 +1,13 @@
+spring:
+    jpa:
+        hibernate:
+            ddl-auto:update
+    datasource:
+        url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/api
+        username: root
+        password: 2023
+        driverClassName: com.mysql.cj.jdbc.Driver
+    show-sql: true
+    properties:
+        hibernate:
+           format_sql:true
